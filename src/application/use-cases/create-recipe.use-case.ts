@@ -11,7 +11,6 @@ export class CreateRecipeUseCase {
   constructor(private repository: InMemoryRecipeRepository) {}
 
   async execute(data: CreateRecipeDTO): Promise<Recipe> {
-    // Aqui podemos adicionar validações se quiser
     const recipe = await this.repository.create(data);
     return recipe;
   }
