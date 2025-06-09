@@ -42,6 +42,13 @@ Make a POST request (for example, using Postman) to
   "instructions": "Mix ingredients, bake at 180°C for 30 minutes."
 }
 ```
+## How to View Recipes
+
+- Access **`/recipes`** to see all recipes.
+
+- Access **`/recipes/:id`** to find a recipe by its ID.  
+  For example: `http://localhost:3000/recipes/cbafc1f9-b915-4a05-aa76-39ed8289be02` or  
+  `https://recipe-catalog-api.onrender.com/recipes/cbafc1f9-b915-4a05-aa76-39ed8289be02`
 
 ## Project setup
 
